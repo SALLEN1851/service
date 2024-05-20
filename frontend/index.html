@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<header id="masthead" class="site-header fixed-top scrolled" role="banner">
+		
+        <nav id="main-navbar" class="navbar navbar-expand-lg">
+            <div class="container">
+	            <div class="navbar-brand">
+	                <a href="https://nlbc.com/">
+		                <img class="logo" src="https://nlbc.com/wp-content/themes/wp-bootstrap-starter/images/logo-black.png" alt="NLBC">
+	                </a>
+	            </div>
+	            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+	            	<span class="toggler-icon-close"><i class="fas fa-times"></i></span>
+	                <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+	            </button>
+	            <div id="main-nav" class="collapse navbar-collapse no-transition">
+	                <div id="eyebrow-nav" class="justify-content-end"><ul id="menu-eyebrow" class="navbar-nav">
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-819 nav-item"><a title="Career Opportunities" href="https://nlbc.com/about/career-opportunities/" class="nav-link">Career Opportunities</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30 nav-item order-2"><a title="Email" target="_blank" href="https://userportal.nltc.net/login" class="nav-link">Email</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31 nav-item order-2"><a title="Speed Test" target="_blank" href="http://speedtest.nlbc.com/" class="nav-link">Speed Test</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-292" class="menu-item menu-item-type-post_type_archive menu-item-object-tutorial menu-item-292 nav-item order-2"><a title="Tutorials" href="https://nlbc.com/tutorial/" class="nav-link">Tutorials</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-351" class="btn-primary-wrap order-1 order-lg-12 menu-item menu-item-type-post_type menu-item-object-page menu-item-351 nav-item order-2"><a title="Pay Bill" href="https://nlbc.com/pay-your-bill/" class="nav-link btn btn-primary">Pay Bill</a></li>
+</ul></div><div id="primary-nav" class="justify-content-end"><ul id="menu-primary" class="navbar-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item active menu-item-23 nav-item"><a title="Internet" href="https://nlbc.com/internet/" class="nav-link" aria-current="page">Internet</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24 nav-item"><a title="TV" href="https://nlbc.com/tv/" class="nav-link">TV</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25 nav-item"><a title="Business" href="https://nlbc.com/business/" class="nav-link">Business</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-26 nav-item"><a title="About" href="https://nlbc.com/about/" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-26">About</a>
+</ul>
+</li>
+
+
+
+
+
+</div></li></ul></div>	            </div>
+	        </div>
+        </nav>
+
+	</header>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Form</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.css' rel='stylesheet' />
+    <link href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.7.0/mapbox-gl.js'></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>
+<script
+id="search-js"
+defer
+src="https://api.mapbox.com/search-js/v1.0.0-beta.18/web.js"
+>
+</script>
+<script>        
+const script = document.getElementById('search-js');
+script.onload = function() {
+mapboxsearch.autofill({
+accessToken: 'pk.eyJ1Ijoic2FsbGVuMTA2IiwiYSI6ImNscXlham03ZzBubGcya3BveXJveWRtaTQifQ.l4TqDA9Ht87uHzHR-e-Vmg'
+});
+};
+</script>
+</head>
+<body>
+
+  <div id="map-container">
+      <div id='map' style='width: 100%; height: 600px;'></div>
+      <!-- <div id="geocoder"></div> -->
+      <div class="form-container">
+    <form id="addressForm">
+       
+        <div class="form-group">
+            <label for="streetAddress">Street Address:</label>
+            <input type="text" id="streetAddress" name="streetAddress" required autocomplete="address-line1"/>
+        </div>
+        <div class="row">
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required autocomplete="address-level2"/>
+        </div>
+        <div class="form-group">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required autocomplete="address-level1"/>
+        </div>
+        <div class="form-group">
+            <label for="zipcode">Zipcode:</label>
+            <input type="text" id="zipcode" name="zipcode" required autocomplete="postal-code"/>
+        </div>
+    </div>
+        <div>
+            <button type="button" id="submit-btn">Search Address</button>
+        </div>
+    </form>
+
+<script>
+    document.getElementById('submit-btn').addEventListener('click', function() {
+        var formContainer = document.querySelector('.form-container');
+        formContainer.style.display = 'none';
+    });
+</script>
+
+
+    
+</div>
+</div>
+    <div id="notification" style="display: none;"></div>
+  <div id="pricing-info" style="display: none;">
+        <div class="pricing-info">
+           
+                            
+<div class="featured-plans">
+							        	<div class="container card"><div class="row"><div class="featured-plan col-md-4"><img src="https://nlbc.com/wp-content/uploads/2020/05/Standard.svg" alt=""><h2>Standard Fiber</h2><p>Great package for less than three people. with basic internet usage and light streaming</p><div class="spacer"></div><ul class="features-list list-unstyled"><li>100x100 mbps</li></ul><div class="featured-price">65.00/month</div><div><a class="btn btn-primary" href="https://nlbc.com/service-area/" target="_blank">Get Started</a></div></div><div class="featured-plan col-md-4"><img src="https://nlbc.com/wp-content/uploads/2020/05/Pro.svg" alt=""><h2>Pro Fiber</h2><p>Perfect speed for streaming, gaming or working from home. Twice the speed of Standard.</p><div class="spacer"></div><ul class="features-list list-unstyled"><li>500x500 mbps</li></ul><div class="featured-price">85.00/month</div><div><a class="btn btn-primary" href="https://nlbc.com/service-area/" target="_blank">Get Started</a></div></div><div class="featured-plan col-md-4"><img src="https://nlbc.com/wp-content/uploads/2020/05/Elite.svg" alt="Elite"><h2>Elite Fiber</h2><p>Our blazing fast package is perfect for tech lovers. Plenty of Bandwidth for large families.</p><div class="spacer"></div><ul class="features-list list-unstyled"><li>1,000x1,000 mbps (1 Gig)</li></ul><div class="featured-price">99.00/month</div><div><a class="btn btn-primary" href="https://nlbc.com/service-area/" target="_self">Get Started</a></div></div></div></div>
+</div>
+
+        </div>
+    </div>
+</div>
+
+      <div class="zone-container">
+  <div class="zone-col zone-interest"><span class="zone-num" id="zone-num-1">1</span><h2>Interest</h2> <div class="arrow"></div></div>
+  <div class="zone-col zone-pre"><span class="zone-num" id="zone-num-2">2</span><h2>Pre-Construction</h2> <div class="arrow"></div></div>
+  <div class="zone-col zone-construction"><span class="zone-num" id="zone-num-3">3</span><h2>Construction</h2> <div class="arrow"></div></div>
+  <div class="zone-col zone-active"><span class="zone-num" id="zone-num-4">4</span><h2>Active</h2></div>
+</div>
+
+<footer id="colophon" class="site-footer text-center navbar-light" role="contentinfo">
+	
+</div>
+							</div>
+						</div>
+					</section>		<section class="footer-main">
+			<div class="container-fluid col-lg-12">
+	        
+		            <div class="footer-info col-lg-12">
+			            <a href="https://nlbc.com"><img class="img-fluid" src="https://nlbc.com/wp-content/uploads/2020/05/NLBC-logo-IG-REV@2x.png"></a><div class="footer-contact"><p>6369 East Dublin Pike, P.O. Box 38</p><p>New Lisbon, IN 47366, 765-332-2885</p></div><div class="footer-contact"><p>1001 E. Washington Street</p><p>Winchester, IN 47394, 765-584-2288</p></div><div class="footer-social d-flex justify-content-center"><a class="btn btn-primary" href="https://www.facebook.com/NLBCNLTC/" target="_blank"><img src="https://nlbc.com/wp-content/uploads/2020/06/Facebook-nocircle.svg" alt="Facebook icon"></a><a class="btn btn-primary" href="https://twitter.com/NLTCNLBC" target="_blank"><img src="https://nlbc.com/wp-content/uploads/2020/06/Twitter-nocircle.svg" alt="Twitter icon"></a><a class="btn btn-primary" href="https://www.linkedin.com/company/new-lisbon-broadband-and-communications/" target="_blank"><img src="https://nlbc.com/wp-content/uploads/2020/06/LinkedIn-nocircle.svg" alt="LinkedIn icon"></a></div>		            </div>
+		            
+	            
+		            <div class="footer-docs col-lg-12">
+			            <ul class="list-unstyled"><li><a href="/wp-content/uploads/2020/05/open-internet-principles-11-19.pdf" target="_blank">Open Internet Principles</a></li><li><a href="/wp-content/uploads/2020/05/acceptable_use_policy-11-10-17.pdf" target="_blank">Acceptable Use Policy</a></li><li><a href="https://7050087.fs1.hubspotusercontent-na1.net/hubfs/7050087/NLT_DSL%20T&amp;Cs_2023.03%20(FINAL).pdf" target="_self">WBITS</a></li><li><a href="/wp-content/uploads/2020/05/0430_12132017_FCCLetter_CST8199_kr.pdf" target="_blank">Battery Backup Policy</a></li></ul>		            </div>
+	            </div>
+			</div>
+
+			<div class="footer-ribbon">
+				© 2024 <a href="https://nlbc.com">NLBC</a>   ·   Powered by <a href="https://irongatecreative.com/" target="_blank">IronGate Creative</a>
+			</div>
+
+		</section>
+	</footer>
+
+
+<div id="notification" style="display: none;">
+ <div class="no-service-info" style="display: none;">
+        <form>
+            <div class="form-group">
+                <label for="leadFirstNameInput">First Name</label>
+                <input type="text" id="leadFirstNameInput" placeholder="First Name">
+            </div>
+
+            <div class="form-group">
+                <label for="leadLastNameInput">Last Name</label>
+                <input type="text" id="leadLastNameInput" placeholder="Last Name">
+            </div>
+
+            <div class="form-group">
+                <label for="leadMobilePhoneInput">Mobile Phone</label>
+                <input type="tel" id="leadMobilePhoneInput" placeholder="555-555-5555">
+            </div>
+
+            <div class="form-group">
+                <label for="leadEmailInput">Email</label>
+                <input type="email" id="leadEmailInput" placeholder="you@example.com">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+   <script type="module" src="scripts.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7050087.js"></script>
+<!-- End of HubSpot Embed Code -->
+</body>
+
+   
+</html>
