@@ -18,6 +18,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // for the /api/address path
 app.use("/api/address", routes);
 
+// Serve static files from the 'backend' directory
+app.use('/service/backend', express.static(path.join(__dirname, 'backend')));
+
 // Connect Database
 connectDB();
 
