@@ -8,13 +8,13 @@ const map = new mapboxgl.Map({
 
 
 
-import { polygonCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js'; // Adjust the path as needed
-import { SunSetAreaCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js'; // Adjust the path as needed
-import { MeekRdCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js';
-import { WhiteWaterCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js';
-import { LeadLineCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js';
-import { RDOFCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js';
-import { MattieHarrisCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js'; 
+import { polygonCoordinates } from 'https://service-production-1fef.up.railway.app/service/service/backend/coordinates/polygon.js'; // Adjust the path as needed
+import { SunSetAreaCoordinates } from 'https://service-production-1fef.up.railway.app/service/service/backend/coordinates/polygon.js'; // Adjust the path as needed
+import { MeekRdCoordinates } from 'https://service-production-1fef.up.railway.app/service/service/backend/coordinates/polygon.js';
+import { WhiteWaterCoordinates } from 'https://service-production-1fef.up.railway.app/service/service/backend/coordinates/polygon.js';
+import { LeadLineCoordinates } from 'https://service-production-1fef.up.railway.app/service/service/backend/coordinates/polygon.js';
+import { RDOFCoordinates } from 'https://service-production-1fef.up.railway.app/service/service/backend/coordinates/polygon.js';
+import { MattieHarrisCoordinates } from 'https://service-production-1fef.up.railway.app/service/service/backend/coordinates/polygon.js'; 
 
 
 
@@ -354,7 +354,7 @@ notification.style.display = 'block';
 };
 
 
-        const backendResponse = await fetch('http://localhost:3000/api/address', {
+        const backendResponse = await fetch('https://service-production-1fef.up.railway.app/service/service/api/address', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
