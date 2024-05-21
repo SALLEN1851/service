@@ -8,13 +8,13 @@ const map = new mapboxgl.Map({
 
 
 
-import { polygonCoordinates } from 'https://service-production-1fef.up.railway.app'; // Adjust the path as needed
-import { SunSetAreaCoordinates } from 'https://service-production-1fef.up.railway.app'; // Adjust the path as needed
-import { MeekRdCoordinates } from 'https://service-production-1fef.up.railway.app';
-import { WhiteWaterCoordinates } from 'https://service-production-1fef.up.railway.app';
-import { LeadLineCoordinates } from 'https://service-production-1fef.up.railway.app';
-import { RDOFCoordinates } from 'https://service-production-1fef.up.railway.app';
-import { MattieHarrisCoordinates } from 'https://service-production-1fef.up.railway.app'; 
+import { polygonCoordinates } from 'https://service-production-1fef.up.railway.app/service/backend/coordinates/polygon.js'; // Adjust the path as needed
+import { SunSetAreaCoordinates } from 'https://service-production-1fef.up.railway.app/service/backend/coordinates/polygon.js'; // Adjust the path as needed
+import { MeekRdCoordinates } from 'https://service-production-1fef.up.railway.app/service/backend/coordinates/polygon.js';
+import { WhiteWaterCoordinates } from 'https://service-production-1fef.up.railway.app/service/backend/coordinates/polygon.js';
+import { LeadLineCoordinates } from 'https://service-production-1fef.up.railway.app/service/backend/coordinates/polygon.js';
+import { RDOFCoordinates } from 'https://service-production-1fef.up.railway.app/service/backend/coordinates/polygon.js';
+import { MattieHarrisCoordinates } from 'https://service-production-1fef.up.railway.app/service/backend/coordinates/polygon.js'; 
 
 
 
