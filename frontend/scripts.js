@@ -1,4 +1,4 @@
-mapboxgl.accessToken = process.env.MAPBOX_TOKEN; 
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2FsbGVuMTA2IiwiYSI6ImNscXlham03ZzBubGcya3BveXJveWRtaTQifQ.l4TqDA9Ht87uHzHR-e-Vmg'; 
 const map = new mapboxgl.Map({
     container: 'map', // The HTML element ID where the map will be inserted
     style: 'mapbox://styles/mapbox/light-v10', 

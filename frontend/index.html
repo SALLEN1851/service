@@ -59,8 +59,7 @@ src="https://api.mapbox.com/search-js/v1.0.0-beta.18/web.js"
 const script = document.getElementById('search-js');
 script.onload = function() {
 mapboxsearch.autofill({
-accessToken: process.env.MAPBOX_TOKEN,
-});
+accessToken: 'pk.eyJ1Ijoic2FsbGVuMTA2IiwiYSI6ImNscXlham03ZzBubGcya3BveXJveWRtaTQifQ.l4TqDA9Ht87uHzHR-e-Vmg'});
 };
 </script>
 </head>
@@ -68,7 +67,7 @@ accessToken: process.env.MAPBOX_TOKEN,
 
   <div id="map-container">
       <div id='map' style='width: 100%; height: 600px;'></div>
-      <!-- <div id="geocoder"></div> -->
+    //    <div id="geocoder"></div>
       <div class="form-container">
     <form id="addressForm">
        
@@ -144,7 +143,7 @@ accessToken: process.env.MAPBOX_TOKEN,
 			</div>
 
 			<div class="footer-ribbon">
-			© 2024 <a href="https://nlbc.com">NLBC</a> Powered by <a href="https://irongatecreative.com/" target="_blank">IronGate Creative</a>
+			© 2024 <a href="https://nlbc.com">NLBC</a>Powered by <a href="https://irongatecreative.com/" target="_blank">IronGate Creative</a>
 			</div>
 
 		</section>
