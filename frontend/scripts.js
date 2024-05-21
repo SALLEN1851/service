@@ -456,7 +456,7 @@ notification.style.display = 'block';
 };
 
 
-        const backendResponse = await fetch('https://service-production-1fef.up.railway.app/service/service/api/address', {
+        const backendResponse = await fetch('https://service-production-1fef.up.railway.app/api/address', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
