@@ -7381,8 +7381,8 @@ section.form .form-right iframe #form1 {
 .gform_wrapper .left_label select,
 .gform_wrapper .right_label select {
   line-height: inherit;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
 }
 .gform_wrapper .left_label select::-ms-expand,
 .gform_wrapper .right_label select::-ms-expand {
