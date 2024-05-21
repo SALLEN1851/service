@@ -29,6 +29,6 @@ app.use('/service/backend/coordinates/polygon.js', express.static(path.join(__di
 // Connect Database
 connectDB();
 
-app.get("/", (req, res) => res.send("connected to the server!"));
+app.get("/service/backend/coordinates/polygon.js", (req, res) => res.send("connected to the server!"));
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server running on port ${port}`));
