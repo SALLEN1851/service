@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/api/address", routes);
 
 // Serve static files from the 'backend' directory
-app.use('/service/frontend/coordinates/polygon.js', express.static(path.join(__dirname, 'frontend')));
+app.use('/service/backend', express.static(path.join(__dirname, 'backend')));
 
 // Connect Database
 connectDB();
