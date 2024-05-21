@@ -1,5 +1,3 @@
-// db.js
-
 const mongoose = require("mongoose");
 const db = "mongodb+srv://sallen106:99t0MqVgX4DH40he@cluster0.0kp1eha.mongodb.net/ONE";
 
