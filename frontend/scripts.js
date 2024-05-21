@@ -8,13 +8,13 @@ const map = new mapboxgl.Map({
 
 
 
-import { polygonCoordinates } from 'http://127.0.0.1:5500/backend/coordinates/polygon.js'; // Adjust the path as needed
-import { SunSetAreaCoordinates } from 'http://127.0.0.1:5500/backend/coordinates/polygon.js'; // Adjust the path as needed
-import { MeekRdCoordinates } from 'http://127.0.0.1:5500/backend/coordinates/polygon.js';
-import { WhiteWaterCoordinates } from 'http://127.0.0.1:5500/backend/coordinates/polygon.js';
-import { LeadLineCoordinates } from 'http://127.0.0.1:5500/backend/coordinates/polygon.js';
-import { RDOFCoordinates } from 'http://127.0.0.1:5500/backend/coordinates/polygon.js';
-import { MattieHarrisCoordinates } from 'http://127.0.0.1:5500/backend/coordinates/polygon.js'; 
+import { polygonCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js'; // Adjust the path as needed
+import { SunSetAreaCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js'; // Adjust the path as needed
+import { MeekRdCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js';
+import { WhiteWaterCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js';
+import { LeadLineCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js';
+import { RDOFCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js';
+import { MattieHarrisCoordinates } from 'http://127.0.0.1:5500/service/backend/coordinates/polygon.js'; 
 
 
 
