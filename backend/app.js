@@ -30,6 +30,28 @@ app.use('/service/backend', express.static(path.join(__dirname, 'backend')));
 // Connect Database
 connectDB();
 
-app.get("/", (req, res) => res.send("connected to the server!"));
+res.send(`
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Mapbox Example</title>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+      </head>
+      <body>
+        <div id="map" style="width: 100%; height: 400px;"></div>
+        <script>
+          const MAPBOX_TOKEN = '${process.env.MAPBOX_TOKEN}';
+          mapboxgl.accessToken = MAPBOX_TOKEN;
+          const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            style: 'mapbox://styles/mapbox/streets-v11', // style URL
+            center: [-74.5, 40], // starting position [lng, lat]
+            zoom: 9 // starting zoom
+          });
+        </script>
+      </body>
+    </html>
+  `);
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server running on port ${port}`));
