@@ -4,11 +4,16 @@ const routes = require("./routes/api/address");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
+const path = require('path'); // Add this line
+
 const app = express();
 
-// use the cors middleware with the
-// origin and credentials options
-app.use(cors({ origin: true, credentials: true }));
+// Configure CORS
+app.use(cors({
+  origin: '*', // Change this to your specific allowed origins as needed
+  credentials: true,
+  optionsSuccessStatus: 200,
+}));
 
 // use the body-parser middleware to parse JSON and URL-encoded data
 app.use(bodyParser.json());
