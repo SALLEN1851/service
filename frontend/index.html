@@ -59,7 +59,7 @@ src="https://api.mapbox.com/search-js/v1.0.0-beta.18/web.js"
 const script = document.getElementById('search-js');
 script.onload = function() {
 mapboxsearch.autofill({
-accessToken: 'pk.eyJ1Ijoic2FsbGVuMTA2IiwiYSI6ImNscXlham03ZzBubGcya3BveXJveWRtaTQifQ.l4TqDA9Ht87uHzHR-e-Vmg'
+accessToken: process.env.MAPBOX_TOKEN,
 });
 };
 </script>
