@@ -6796,6 +6796,7 @@ hr {
 
 .footer-docs ul li {
   line-height: 30px;
+  list-style: none;
 }
 
 .footer-ribbon {
