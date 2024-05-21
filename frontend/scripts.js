@@ -432,7 +432,8 @@ If you would like to pre-order your residential internet service, please click t
                <p>If you are interested in a commercial internet service or would like to speak with a representative, 
                    <a href="https://share.hsforms.com/1IXoUM1AlTMClAEYjqMJr7w473vr" id="form-link">please click here to fill out our contact form to have a representative reach out to you.</a> </p>`;
 } else {
-    message = `Service is not available at <strong>${fullAddress}</strong>.`;
+  window.location.href = 'https://nlbc.com/service-area/';
+    // message = `Service is not available at <strong>${fullAddress}</strong>.`;
 }
 
 
