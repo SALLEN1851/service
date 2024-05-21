@@ -1,4 +1,3 @@
-require('dotenv').config();
 const express = require("express");
 const connectDB = require("./config/db");
 const routes = require("./routes/api/address");
@@ -6,7 +5,6 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 const app = express();
-const db = process.env.MONGO_DB_URI;
 
 // use the cors middleware with the
 // origin and credentials options
