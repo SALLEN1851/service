@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+const Address = require('../../models/addressModel');
 
 
 // @route   POST api/address
