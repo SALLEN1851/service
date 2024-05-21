@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const db = "mongodb+srv://sallen106:99t0MqVgX4DH40he@cluster0.0kp1eha.mongodb.net/ONE";
+const db = process.env.MONGO_DB_URI;
 
 mongoose.set("strictQuery", true, "useNewUrlParser", true);
 
