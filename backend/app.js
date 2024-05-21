@@ -42,7 +42,7 @@ res.send(`
         <div id="map" style="width: 100%; height: 400px;"></div>
         <script>
           const MAPBOX_TOKEN = '${process.env.MAPBOX_TOKEN}';
-          mapboxgl.accessToken = MAPBOX_TOKEN;
+          mapboxgl.accessToken = process.env.MAPBOX_TOKEN;
           const map = new mapboxgl.Map({
             container: 'map', // container ID
             style: 'mapbox://styles/mapbox/streets-v11', // style URL
