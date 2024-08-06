@@ -385,7 +385,7 @@ let marker;
               'fill-outline-color': '#088', // Optional: Outline color
             },
           });
-        });
+        
 
 
     document.addEventListener('DOMContentLoaded', function() {
