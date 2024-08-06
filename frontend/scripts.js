@@ -119,6 +119,109 @@ const MattieHarrisCoordinates = [
 [-84.99662823648848, 39.7942387004656]
 ];
 
+export const NLTC = [
+  [-85.21209639965024, 39.96451385081485, 0.0],
+  [-85.21146266943401, 39.96074779477148, 0.0],
+  [-85.21055333754964, 39.960143, 0.0],
+  [-85.21035492999997, 39.95396094000009, 0.0],
+  [-85.21273888599995, 39.95393296500008, 0.0],
+  [-85.21274673999997, 39.94703253200005, 0.0],
+  [-85.21275916699994, 39.93611478700008, 0.0],
+  [-85.20050772499991, 39.93613982500003, 0.0],
+  [-85.20054519999991, 39.93246230000004, 0.0],
+  [-85.20056582802796, 39.92561465402864, 0.0],
+  [-85.1994024277621, 39.92336282786997, 0.0],
+  [-85.20047703318005, 39.92333764695154, 0.0],
+  [-85.20055499899993, 39.919479, 0.0],
+  [-85.20493899899992, 39.91943500100004, 0.0],
+  [-85.2049784168752, 39.91841065473143, 0.0],
+  [-85.20720645199995, 39.91840714700008, 0.0],
+  [-85.20716664499994, 39.91406614000009, 0.0],
+  [-85.21373394999995, 39.91414240100009, 0.0],
+  [-85.2137152, 39.90337240000009, 0.0],
+  [-85.2137152, 39.90276230000006, 0.0],
+  [-85.21379030099999, 39.88843729900007, 0.0],
+  [-85.21379264188428, 39.88153270274115, 0.0],
+  [-85.21457132899437, 39.88148934165196, 0.0],
+  [-85.21469045398128, 39.87367436607919, 0.0],
+  [-85.21360611463093, 39.86792549334859, 0.0],
+  [-85.21359719414471, 39.86562535077042, 0.0],
+  [-85.21511606619202, 39.8612455908256, 0.0],
+  [-85.21507724206033, 39.85761798995195, 0.0],
+  [-85.22654221199991, 39.85771154700005, 0.0],
+  [-85.22672734899996, 39.82869748200007, 0.0],
+  [-85.24373270099994, 39.82876487500005, 0.0],
+  [-85.2437042025621, 39.82038057556967, 0.0],
+  [-85.25173399899992, 39.82020000100008, 0.0],
+  [-85.2517581851705, 39.81753862580899, 0.0],
+  [-85.25306024999998, 39.81750735000003, 0.0],
+  [-85.25298231499991, 39.81393756200008, 0.0],
+  [-85.28334286799992, 39.81091755300004, 0.0],
+  [-85.28333081604902, 39.81026865305968, 0.0],
+  [-85.28324753678704, 39.80838984271054, 0.0],
+  [-85.28608775435946, 39.80840356016648, 0.0],
+  [-85.286113, 39.8075690000001, 0.0],
+  [-85.286329999, 39.799134, 0.0],
+  [-85.28314638791724, 39.79909329383465, 0.0],
+  [-85.28304437944666, 39.7902052266183, 0.0],
+  [-85.2829798347951, 39.78786693380883, 0.0],
+  [-85.285459, 39.787772, 0.0],
+  [-85.28992699899999, 39.787799, 0.0],
+  [-85.290151, 39.78779800100008, 0.0],
+  [-85.29044699900001, 39.787787, 0.0],
+  [-85.290902, 39.787804, 0.0],
+  [-85.297486, 39.787668, 0.0],
+  [-85.297948999, 39.787649001, 0.0],
+  [-85.29877858580946, 39.78763169528922, 0.0],
+  [-85.29871517821333, 39.78625933268538, 0.0],
+  [-85.30157882933653, 39.78616487890194, 0.0],
+  [-85.31720111386502, 39.78596128759704, 0.0],
+  [-85.31699297301832, 39.80814717368189, 0.0],
+  [-85.32158774690052, 39.8080917561788, 0.0],
+  [-85.32145223199268, 39.82213907887309, 0.0],
+  [-85.32644661901787, 39.82221189835889, 0.0],
+  [-85.32660499900001, 39.826501, 0.0],
+  [-85.32926038116375, 39.82651488175411, 0.0],
+  [-85.32926891799997, 39.82737847, 0.0],
+  [-85.34018599899997, 39.82731176580255, 0.0],
+  [-85.34018599899997, 39.830522, 0.0],
+  [-85.340297999, 39.842928, 0.0],
+  [-85.3461962935734, 39.842900917584, 0.0],
+  [-85.34593837699995, 39.85954575300011, 0.0],
+  [-85.33788552899998, 39.85964628199999, 0.0],
+  [-85.33783146699994, 39.86678665900006, 0.0],
+  [-85.33686621500001, 39.86679265400002, 0.0],
+  [-85.3335651999999, 39.87223214100006, 0.0],
+  [-85.328679806, 39.87227162100002, 0.0],
+  [-85.3286962599999, 39.87396061400007, 0.0],
+  [-85.3167227, 39.87396061400007, 0.0],
+  [-85.3167227, 39.88618754300009, 0.0],
+  [-85.32382502899995, 39.88619696900007, 0.0],
+  [-85.32372112499996, 39.89503570300006, 0.0],
+  [-85.32661131399999, 39.8986986890001, 0.0],
+  [-85.32659339400001, 39.90143951500004, 0.0],
+  [-85.30946831899999, 39.90136994300005, 0.0],
+  [-85.29994588899993, 39.90127505100001, 0.0],
+  [-85.29991396799994, 39.90447830900011, 0.0],
+  [-85.29517995499992, 39.90443983300004, 0.0],
+  [-85.29519022499989, 39.91727240000007, 0.0],
+  [-85.29467568699997, 39.93200648600006, 0.0],
+  [-85.29469700099995, 39.93567729800003, 0.0],
+  [-85.29831003099991, 39.9357017520001, 0.0],
+  [-85.29832370238023, 39.94083592660476, 0.0],
+  [-85.295942, 39.941033, 0.0],
+  [-85.29310599899992, 39.941103, 0.0],
+  [-85.293243, 39.946643, 0.0],
+  [-85.29347199899993, 39.952744, 0.0],
+  [-85.27200599900002, 39.952713, 0.0],
+  [-85.269411, 39.952709, 0.0],
+  [-85.25217010586726, 39.96078646567096, 0.0],
+  [-85.25180246824362, 39.96137117900712, 0.0],
+  [-85.242697, 39.961405, 0.0],
+  [-85.24269699997765, 39.96440746330897, 0.0],
+  [-85.23255279999995, 39.96447730000007, 0.0],
+  [-85.21209639965024, 39.96451385081485, 0.0],
+];
 
 
 let marker;
@@ -261,7 +364,28 @@ let marker;
       });
     });
 
-
+          // Add your sixth polygon
+          map.addLayer({
+            id: 'nltcPolygon',
+            type: 'fill',
+            source: {
+              type: 'geojson',
+              data: {
+                type: 'Feature',
+                geometry: {
+                  type: 'Polygon',
+                  coordinates: [NLTC],
+                },
+              },
+            },
+            layout: {},
+            paint: {
+              'fill-color': '#05B4DF',
+              'fill-opacity': 0.3,
+              'fill-outline-color': '#088', // Optional: Outline color
+            },
+          });
+        });
 
 
     document.addEventListener('DOMContentLoaded', function() {
@@ -339,6 +463,7 @@ const polygonSunSetArea = turf.polygon([SunSetAreaCoordinates]);
 const polygonLeadLine = turf.polygon([LeadLineCoordinates]);
 const polygonRDOF = turf.polygon([RDOFCoordinates]);
 const mattieHarrisPolygon = turf.polygon([MattieHarrisCoordinates]);
+const NLTCpolygon = turf.polygon([NLTC]);
 
 // Check if the point is inside any of the polygons
 const isInsideMeekRd = turf.booleanPointInPolygon(point, polygonMeekRd);
@@ -347,7 +472,8 @@ const isInsideSunSetArea = turf.booleanPointInPolygon(point, polygonSunSetArea);
 const isInsideLeadLine = turf.booleanPointInPolygon(point, polygonLeadLine);
 const isInsideRDOF = turf.booleanPointInPolygon(point, polygonRDOF);
 const isInsideMattieHarris = turf.booleanPointInPolygon(point, mattieHarrisPolygon);
-const isInsidePolygon = isInsideMeekRd || isInsideWhiteWater || isInsideSunSetArea || isInsideLeadLine || isInsideRDOF || isInsideMattieHarris;
+const isInsideNLTC = turf.booleanPointInPolygon(point, NLTCpolygon);
+const isInsidePolygon = isInsideMeekRd || isInsideWhiteWater || isInsideSunSetArea || isInsideLeadLine || isInsideRDOF || isInsideMattieHarris || isInsideNLTC;
 
 
 // Determine which polygon the point is in and display a unique message
@@ -431,6 +557,12 @@ If you would like to pre-order your residential internet service, please click t
                </div>
                <p>If you are interested in a commercial internet service or would like to speak with a representative, 
                    <a href="https://share.hsforms.com/1IXoUM1AlTMClAEYjqMJr7w473vr" id="form-link">please click here to fill out our contact form to have a representative reach out to you.</a> </p>`;
+} else if (isInsideNLTC) {
+  message = `<h2 class="section-heading">You're Qualified!</h2><p><strong>${fullAddress}</strong> is qualified for fiber optic internet service.</p> <p>If you would like fiber optic internet service at your residence, please click the sign up now button and you can fill out the residential service agreement.</p><div>
+                 <a href="https://nlbcnltc.eversign.com/embedded/552f574523c247f0821d4b984484ea65" class="button-link">Sign up now</a>
+             </div>
+             <p>If you are interested in a commercial internet service or would like to speak with a representative, 
+                 <a href="https://share.hsforms.com/1IXoUM1AlTMClAEYjqMJr7w473vr" id="form-link">please click here to fill out our contact form to have a representative reach out to you.</a> </p>`;
 } else {
   window.location.href = 'https://nlbc.com/check-service-area/';
   message = `Contact us to confirm service availability at <strong>${fullAddress}</strong>.`;
